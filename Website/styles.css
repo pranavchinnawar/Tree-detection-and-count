@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #0a0908;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background-color: #f2e8cf;
+    background-image: url('Drone.webp');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #c5dac5;
+    padding: 20px;
+}
+/* About us */
+.hero_aboutus {
+    background-color: #f2e8cf;
+    background-image: url('Aboutus.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e3b948;
+    padding: 20px;
+}
+.section-1 {
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+.container-1 {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto
+}
+.paragraph-1 {
+    justify-content: center;
+    width: auto;
+    min-width: 22px;
+    margin: 45px auto 111px;
+    font-size: 26px;
+    line-height: 43px
+}
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.features {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.feature {
+    background-color: #e0f7fa;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
